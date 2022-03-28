@@ -37,7 +37,11 @@
  * 
  * - ex. enemy decreases player life
  */
-let mySprite = sprites.create(img`
+controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
+    mySprite.vy += 5
+})
+let mySprite: Sprite = null
+mySprite = sprites.create(img`
     ...................................
     ...................................
     ...................................
@@ -75,3 +79,4 @@ let mySprite = sprites.create(img`
     ...................................
     `, SpriteKind.Player)
 mySprite.setPosition(8, 113)
+mySprite.setVelocity(39, -37)
