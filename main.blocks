@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="*:`Znok//*BOyqiWH(Li">Player</variable><variable type="KIND_SpriteKind" id="ba;rAxAZx|!$PpFt%D1Q">Projectile</variable><variable type="KIND_SpriteKind" id="l?Qmy_$/:Js5Qi$sW*Ur">Food</variable><variable type="KIND_SpriteKind" id="X#NO+URrx@@n2_9~)%sC">Enemy</variable><variable id="GF|_IFnJ/[`yS-XFD]ap">mySprite</variable><variable id="m!_hD5m?_D:3Cnva{l}@">item</variable></variables><comment id="w?nIA5rf5pWNIAObo${c" minimized="true" data="0" x="437" y="-74" h="565" w="484">8 Concepts Learned (Pick the 8 you used, delete the others):
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="*:`Znok//*BOyqiWH(Li">Player</variable><variable type="KIND_SpriteKind" id="ba;rAxAZx|!$PpFt%D1Q">Projectile</variable><variable type="KIND_SpriteKind" id="l?Qmy_$/:Js5Qi$sW*Ur">Food</variable><variable type="KIND_SpriteKind" id="X#NO+URrx@@n2_9~)%sC">Enemy</variable><variable id="GF|_IFnJ/[`yS-XFD]ap">mySprite</variable><variable id="m!_hD5m?_D:3Cnva{l}@">item</variable></variables><comment id="true" minimized="true" data="0" x="667" y="16" h="565" w="484">8 Concepts Learned (Pick the 8 you used, delete the others):
 -Sprites
 -Sprite Position (coordinates: x and y)
 -Controller (dx) and move mySprite with buttons
@@ -17,7 +17,7 @@ Key Features (List the Key Features You Will Need For Your Game, replace example
 - ex. Playable Sprite
 - ex. player can move up/down left/right
 - ex. player can collide with enemy
-- ex. enemy decreases player life</comment><block type="pxt-on-start" id="*-p3tmLjG-24zK:~JD~V" x="-230" y="-90"><statement name="HANDLER"><block type="variables_set" id="xcGz/lthIB9kBeX|2=4P"><field name="VAR" id="GF|_IFnJ/[`yS-XFD]ap">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="/jUtrOfBs%()~p2#1aW_"><value name="img"><shadow type="screen_image_picker" id="H%*XeC+;V_@px|G6TuDb"><field name="img">img`
+- ex. enemy decreases player life</comment><block type="pxt-on-start" id="*-p3tmLjG-24zK:~JD~V" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="xcGz/lthIB9kBeX|2=4P"><field name="VAR" id="GF|_IFnJ/[`yS-XFD]ap">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="/jUtrOfBs%()~p2#1aW_"><value name="img"><shadow type="screen_image_picker" id="H%*XeC+;V_@px|G6TuDb"><field name="img">img`
 ...................................
 ...................................
 ...................................
